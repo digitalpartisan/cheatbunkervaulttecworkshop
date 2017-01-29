@@ -1,3 +1,14 @@
-This mod provides the Vault-Tec Workshop package for The Cheat Bunker.  As such, it requires both the Vault-Tec Workshop DLC and The Cheat Bunker to be installed.  This package brings the Vault 88 suit into the Cheat Bunker and provides the option to unlock the ability to use the Vault-Tec Workshop items (excepting the experimental pieces) in any Settlement without completing the DLC's main quest.
+Brings content from the Vault-Tec Workshop DLC – particularly the Pip-Boy - into The Cheat Bunker.
 
-This is yet another mod which provides a relatively small amount of content and should be given a pass if your load order is filling up.
+Quest Auto-completion options:
+Enable use of all Vault-Tec Workshop items with the exception of experiments
+Importers:
+None
+Exterior space connection(s):
+None
+Items modified for playability and/or adding a legendary effect attach point:
+None
+
+-
+
+The Cheat Bunker: Vault-Tec has been cleaned with FO4Edit.
