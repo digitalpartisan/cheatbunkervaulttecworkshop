@@ -1,6 +1,7 @@
 v1.1.0
 Introduced AWKCR dependency
 Upgraded the package versioning and upgrade logic corresponding to changes in The Cheat Bunker v1.7.0
+Added Vault 88 Experiement Unlocker Auto-completion option
 
 v1.0.2
 Set Autocompleter availability messages to display for five seconds
