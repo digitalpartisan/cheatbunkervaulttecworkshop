@@ -1,16 +1,12 @@
-Scriptname CheatBunkerDLC06:Autocompletion:VaultTecWorkshop extends cheatbunker:autocompletion Conditional
+Scriptname CheatBunkerDLC06:Autocompletion:VaultTecWorkshop extends CheatBunker:Autocompletion Conditional
 
 GlobalVariable Property VaultTecGlobalAvailability Auto Const
 
-Bool Function canRun()
+Bool Function canExecute()
 	return 0 == VaultTecGlobalAvailability.GetValue()
 EndFunction
 
-Bool Function hasWindowPassed()
-	return !canRun()
-EndFunction
-
-Function runBehavior()
+Function executeBehavior()
 	VaultTecGlobalAvailability.SetValue(1)
-	finish()
+	Conclude()
 EndFunction

@@ -1,3 +1,8 @@
+v1.2.0
+Integrated Auto-completion changes from Cheat Bunker v1.8.0
+Explore Vault 88 has an Auto-completion option to enable the entire Valut 88 workshop building space
+The Hallucigen research papers required for "The Watering Hole" can be acquired via an Auto-completion option
+
 v1.1.0
 Introduced AWKCR dependency
 Upgraded the package versioning and upgrade logic corresponding to changes in The Cheat Bunker v1.7.0

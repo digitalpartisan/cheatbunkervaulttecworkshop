@@ -1,4 +1,7 @@
 [
 	"Data\\SCRIPTS\\CheatBunkerDLC06\\Autocompletion\\ExperimentUnlocker.pex",
-	"Data\\SCRIPTS\\CheatBunkerDLC06\\Autocompletion\\VaultTecWorkshop.pex"
+	"Data\\Scripts\\CheatBunkerDLC06\\Autocompletion\\ExploreVault88.pex",
+	"Data\\Scripts\\CheatBunkerDLC06\\Autocompletion\\HallucigenResearch.pex",
+	"Data\\SCRIPTS\\CheatBunkerDLC06\\Autocompletion\\VaultTecWorkshop.pex",
+	"Data\\Scripts\\CheatBunkerDLC06\\Updater\\v1_1_0_to_v1_2_0.pex"
 ]

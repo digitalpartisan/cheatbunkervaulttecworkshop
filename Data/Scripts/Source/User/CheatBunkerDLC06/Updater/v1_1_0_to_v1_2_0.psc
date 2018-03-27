@@ -1,0 +1,12 @@
+Scriptname CheatBunkerDLC06:Updater:v1_1_0_to_v1_2_0 extends CheatBunker:PackageUpdater
+
+CheatBunker:Package Property CheatBunkerDLC06Package Auto Const Mandatory
+CheatBunkerDLC06:Autocompletion:ExperimentUnlocker Property CheatBunkerDLC06AutocompletionExperimentsUnlocker Auto Const Mandatory
+
+Function updateBehavior()
+	CheatBunker:Autocompletion.retrofitPackage(CheatBunkerDLC06Package)
+	
+	if (CheatBunkerDLC06AutocompletionExperimentsUnlocker.isConcluded())
+		CheatBunkerDLC06AutocompletionExperimentsUnlocker.CheatBunkerDLC06AutocompletionExperimentsUnlockerToggle.SetValue(1)
+	endif
+EndFunction
