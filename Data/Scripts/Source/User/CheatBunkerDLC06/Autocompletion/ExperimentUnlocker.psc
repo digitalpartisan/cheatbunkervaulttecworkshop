@@ -3,7 +3,7 @@ Scriptname CheatBunkerDLC06:Autocompletion:ExperimentUnlocker extends CheatBunke
 GlobalVariable Property CheatBunkerDLC06AutocompletionExperimentsUnlockerToggle Auto Const Mandatory
 
 Bool Function canExecute()
-	return !isConcluded()
+	return playerLeftVault() && !isExecutingOrConcluded()
 EndFunction
 
 Function executeBehavior()

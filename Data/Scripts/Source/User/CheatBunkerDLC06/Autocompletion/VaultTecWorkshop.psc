@@ -3,7 +3,7 @@ Scriptname CheatBunkerDLC06:Autocompletion:VaultTecWorkshop extends CheatBunker:
 GlobalVariable Property VaultTecGlobalAvailability Auto Const
 
 Bool Function canExecute()
-	return 0 == VaultTecGlobalAvailability.GetValue()
+	return playerLeftVault() && 0 == VaultTecGlobalAvailability.GetValue()
 EndFunction
 
 Function executeBehavior()
